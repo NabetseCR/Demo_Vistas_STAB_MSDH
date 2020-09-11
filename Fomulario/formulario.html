@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Theme -->
+    <link rel="stylesheet" href="../Tema/bootstrap.min.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="row"></div>
+
+    <div class="row">
+        <div class="col-md"></div>
+
+        <div class="col-md">
+            
+            <form class="ColorForm">
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Desea ser anónimo</label>  
+                    </div>
+                    <div class="col-md">
+                        <div class="form-group">
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input " id="customSwitch1" checked="">
+                                <label class="custom-control-label custom-control-left" for="customSwitch1" id="customSwitch2"></label>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                          <label class="col-form-label" for="inputDefault">Número de Cédula</label>  
+                    </div>
+                    <div class="col-md">
+                        <input type="text" class="form-control" placeholder="" id="numeroCedula">
+                    </div>
+                </div> 
+
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Nombre Completo</label>  
+                  </div>
+                  <div class="col-md">
+                      <input type="text" class="form-control" placeholder="" id="nombreCompleto">
+                  </div>
+                </div> 
+
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Dirección de Residencia</label>  
+                  </div>
+                  <div class="col-md">
+                      <input type="text" class="form-control" placeholder="" id="direccionResidencia">
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Números de Teléfono</label>  
+                  </div>
+                  <div class="col-md">
+                      Residencia: <input type="text" class="form-control" placeholder="" id="numeroTelefonoCasa">
+                      Celular: <input type="text" class="form-control" placeholder="" id="numeroTelefonoCelular">
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Departamento Involucrado</label>  
+                  </div>
+                  <div class="col-md">
+                      <input type="text" class="form-control" placeholder="" id="departamentoInvolucrado">
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Asunto</label>  
+                  </div>
+                  <div class="col-md">
+                      <input type="text" class="form-control" placeholder="" id="asunto">
+                  </div>
+                </div>
+
+                <div class="row">
+                   <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Descripción</label> 
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        <textarea class="form-control" id="descripcion" rows="8"></textarea>  
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md">
+                    <label for="exampleInputFile">Archivos de Denuncia</label>
+                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                    <small id="fileHelp" class="form-text text-muted">Presionando el boton "Seleccionar archivo", puedes adjuntar las pruebas para argumentar tu denuncia. Archivos .jpg, .png</small>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md"> </div>
+                    <div class="col-md"> 
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    <div class="col-md"> </div>
+                </div>  
+                
+            </form>
+
+        </div>
+
+        <div class="col-md"></div>
+
+    </div>
+
+    <div class="row"></div>
+    
+    
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous">
+    </script>
+    <script src="./app.js"></script>
+</body>
+</html>
