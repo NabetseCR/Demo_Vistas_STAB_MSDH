@@ -20,3 +20,7 @@ body{
 .row{
   padding-bottom: 20px;
 }
+
+.form-control-sm{
+  width: min-content;
+}

@@ -1,5 +1,3 @@
-var e = 2;
-
-function name(params) {
-    
-}
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});

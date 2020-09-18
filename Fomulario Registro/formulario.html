@@ -24,18 +24,7 @@
 
             <form class="ColorForm">
                 <div class="row">
-                    <div class="col-md">
-                        <label class="col-form-label" for="inputDefault">Desea ser anónimo</label>
-                    </div>
-                    <div class="col-md">
-                        <div class="form-group">
-                            <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input " id="customSwitch1" checked="">
-                                <label class="custom-control-label custom-control-left" for="customSwitch1"
-                                    id="customSwitch2"></label>
-                            </div>
-                        </div>
-                    </div>
+                    <h1>Registro de Usuarios</h1>
                 </div>
 
                 <div class="row">
@@ -43,25 +32,36 @@
                         <label class="col-form-label" for="inputDefault">Número de Cédula</label>
                     </div>
                     <div class="col-md">
-                        <input type="text" class="form-control" placeholder="" id="numeroCedula">
+                        <input type="text" class="form-control form-control-sm" placeholder="" id="numeroCedula">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md">
-                        <label class="col-form-label" for="inputDefault">Nombre Completo</label>
+                        <label class="col-form-label" for="inputDefault">Nombre</label>
                     </div>
                     <div class="col-md">
-                        <input type="text" class="form-control" placeholder="" id="nombreCompleto">
+                        <input type="text" class="form-control form-control-sm" placeholder="" id="nombre">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md">
-                        <label class="col-form-label" for="inputDefault">Dirección de Residencia</label>
+                        <label class="col-form-label" for="inputDefault">Apellidos</label>
                     </div>
                     <div class="col-md">
-                        <input type="text" class="form-control" placeholder="" id="direccionResidencia">
+                        Primer Apellido: <input type="text" class="form-control form-control-sm" placeholder="" id="appellido_1">
+                        Segundo Apellido: <input type="text" class="form-control form-control-sm" placeholder="" id="appellido_1">
+                    </div>
+                   
+                </div>
+
+                <div class="row">
+                    <div class="col-md">
+                        <label class="col-form-label" for="inputDefault">Correo Electronico</label>
+                    </div>
+                    <div class="col-md">
+                        <input type="text" class="form-control form-control-sm" placeholder="" id="correoElectronico">
                     </div>
                 </div>
 
@@ -70,47 +70,17 @@
                         <label class="col-form-label" for="inputDefault">Números de Teléfono</label>
                     </div>
                     <div class="col-md">
-                        Residencia: <input type="text" class="form-control" placeholder="" id="numeroTelefonoCasa">
-                        Celular: <input type="text" class="form-control" placeholder="" id="numeroTelefonoCelular">
+                        Residencia: <input type="text" class="form-control form-control-sm" placeholder="" id="numeroTelefonoCasa">
+                        Celular: <input type="text" class="form-control form-control-sm" placeholder="" id="numeroTelefonoCelular">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md">
-                        <label class="col-form-label" for="inputDefault">Departamento Involucrado</label>
+                        <label class="col-form-label" for="inputDefault">Contraseña</label>
                     </div>
                     <div class="col-md">
-                        <input type="text" class="form-control" placeholder="" id="departamentoInvolucrado">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md">
-                        <label class="col-form-label" for="inputDefault">Asunto</label>
-                    </div>
-                    <div class="col-md">
-                        <input type="text" class="form-control" placeholder="" id="asunto">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md">
-                        <label class="col-form-label" for="inputDefault">Descripción</label>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md">
-                        <textarea class="form-control" id="descripcion" rows="8"></textarea>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md">
-                        <label for="exampleInputFile">Archivos de Denuncia</label>
-                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-                        <small id="fileHelp" class="form-text text-muted">Presionando el boton "Seleccionar archivo",
-                            puedes adjuntar las pruebas para argumentar tu denuncia. Archivos .jpg, .png</small>
+                        <input type="password" class="form-control form-control-sm" id="password" placeholder="password">
                     </div>
                 </div>
 
@@ -123,7 +93,9 @@
                 </div>
             </form>
         </div>
-        <div class="col-md"></div>
+        <div class="col-md">
+            
+        </div>
     </div>
     <div class="row"></div>
 
