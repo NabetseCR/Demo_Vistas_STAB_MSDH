@@ -35,6 +35,7 @@ body {
 .sidebar .nav-link {
   font-weight: 500;
   color: #333;
+  padding-top: 20%;
 }
 
 .sidebar .nav-link .feather {
@@ -59,19 +60,21 @@ body {
 /*
  * Navbar
  */
+.navbar {
+  background-color: #0953b9bb;
+}
 
 .navbar-brand {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, .25);
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  background-color: #0953b9bb;
 }
 
 .navbar .form-control {
   padding: .75rem 1rem;
   border-width: 0;
-  border-radius: 0;
+  border-radius: 0; 
 }
 
 .form-control-dark {
@@ -91,3 +94,8 @@ body {
 
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.logoPrincipal {
+  width: 102px;
+  height: 44px;
+}
